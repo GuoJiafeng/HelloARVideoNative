@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/singup_exit"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/exit_1"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="登陆"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="26dp"
+    android:id="@+id/textView" />
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="98dp"
+        android:background="@drawable/login_logo"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/login_usename"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp" />
+
+    <EditText
+
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:background="@drawable/login_login"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login_usename" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:background="@drawable/login_password"
+        android:layout_marginTop="30dp"
+
+        android:id="@+id/login_password"
+        android:layout_below="@+id/login_usename"
+        android:layout_alignLeft="@+id/login_usename"
+        android:layout_alignStart="@+id/login_usename" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:background="@drawable/login_forgetpassword"
+        android:id="@+id/login_forgetpassword"
+        android:layout_alignBottom="@+id/login_button"
+        android:layout_alignLeft="@+id/login_password"
+        android:layout_alignStart="@+id/login_password" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="31dp"
+        android:background="@drawable/login_login_button"
+       android:id="@+id/login_button"
+        android:layout_below="@+id/login_password"
+        android:layout_alignRight="@+id/login_password"
+        android:layout_alignEnd="@+id/login_password"
+        android:layout_marginTop="23dp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:background="@drawable/login_creatnewaccount"
+        android:id="@+id/gotosinup"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+
+</RelativeLayout>

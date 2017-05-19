@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <RelativeLayout
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:background="@drawable/home_4"
+        android:id="@+id/homefragment"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+       >
+
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+
+
+        android:background="@drawable/mid_4"
+        android:id="@+id/midfragment"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/minefragment"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_gravity="bottom"
+
+        android:background="@drawable/mine_4"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </RelativeLayout>
+</RelativeLayout>
