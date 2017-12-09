@@ -11,7 +11,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-
+import cn.easyar.samples.helloarvideo.service.DownloadService;
 
 
 /**
@@ -50,6 +50,8 @@ public class MainActivity extends Activity implements MainContract.View ,View.On
 
         layout = (RelativeLayout)findViewById(R.id.layout);
 
+        Intent startintent = new Intent(MainActivity.this, DownloadService.class);
+        startService(startintent);
 
     }
 
